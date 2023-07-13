@@ -40,5 +40,5 @@
 .recipePhotoBlock {
   display: flex;
   justify-content: space-evenly;
-  
+  width:fit-content;
 }
