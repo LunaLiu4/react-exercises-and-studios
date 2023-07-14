@@ -1,0 +1,26 @@
+{
+    "projects": [{
+        "canvas": "Fox",
+        "designer": "Pip and Roo",
+        "photoUrl": "long URL",
+        "alt": "Stitched fox with fluffy tail"
+     },
+     {
+        "canvas": "Fish",
+        "designer": "Pip and Roo",
+        "photoUrl": "long URL",
+        "alt": "Dolphin"
+     },
+     {
+        "canvas": "Flowers",
+        "designer": "Pip and Roo",
+        "photoUrl": "long URL",
+        "alt": "Lily"
+     },
+     {
+        "canvas": "House",
+        "designer": "Pip and Roo",
+        "photoUrl": "long URL",
+        "alt": "My House"
+     }]    
+}
