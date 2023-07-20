@@ -1,5 +1,15 @@
+import React from "react";
+import styles from './styling.css';
+
 function ClickedButton() {
-  return;
+  function handleClick() {
+    alert("You are clicking this pin to remove it from the board!");
+  }
+  return (
+    <button id="clickedButton" onClick={handleClick}>
+      Saved
+    </button>
+  )
 }
 
 export default ClickedButton;

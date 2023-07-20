@@ -1,7 +1,14 @@
+import React from "react";
+
 let stars = ["⭐", "⭐ ⭐", "⭐ ⭐ ⭐", "⭐ ⭐ ⭐ ⭐", "⭐ ⭐ ⭐ ⭐ ⭐"];
 
-function RateARecipe() {
-  return stars;
+function RateARecipe(props) {
+  const  GiveRating = () => {
+    return <h3>{stars[props.rating - 1]}</h3>;
+ }
+  //  return stars;
+  return (props.rating <= 5 && props.rating >= 1) ? GiveRating() : null
+
 }
 
 export default RateARecipe;
